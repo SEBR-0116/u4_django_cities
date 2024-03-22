@@ -25,6 +25,7 @@ class Attraction(models.Model):
     
 class Review(models.Model):
     Rating_Stars = (
+        ('None', 'None'),
         ('X', 'X'),
         ('XX', 'XX'),
         ('XXX', 'XXX'),
